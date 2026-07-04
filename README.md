@@ -39,6 +39,21 @@ Train YOLOv8 in the Python 3.9 training venv:
 
 If PyTorch is not available for your current Python, create a Python 3.9-3.12 venv for training. This workspace uses `venv39` for YOLO, the pipeline, and the dashboard.
 
+## Developer setup
+
+Install runtime dependencies:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+Install development dependencies and run tests:
+
+```powershell
+python -m pip install -r requirements-dev.txt
+python -m pytest
+```
+
 ## Output Files
 
 `python main.py` writes:

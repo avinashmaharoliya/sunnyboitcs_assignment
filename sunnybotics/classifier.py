@@ -53,20 +53,49 @@ class ConditionClassifier:
     def is_yolo_enabled(self) -> bool:
         return self.model is not None
 
-    def predict(self, image_path: Path, source_label: str) -> Prediction:
-        if self.model is not None:
+    def _inference_prediction(self, image_path: Path) -> Prediction:
+        try:
             result = self.model(str(image_path), verbose=False)[0]
-            probs = result.probs
-            top_index = int(probs.top1)
-            confidence = float(probs.top1conf)
+            probs = getattr(result, "probs", None)
+            if probs is None:
+                return Prediction(
+                    condition="uncertain",
+                    confidence=0.0,
+                    model_source="yolov8",
+                    issues=["missing_probability_scores"],
+                )
+
+            top_index = int(getattr(probs, "top1", 0))
+            confidence = float(getattr(probs, "top1conf", 0.0))
             names = getattr(result, "names", None) or getattr(self.model, "names", {})
             class_name = names.get(top_index, str(top_index)) if isinstance(names, dict) else str(top_index)
+            condition = normalize_model_label(class_name)
+
+            if confidence <= 0.0:
+                return Prediction(
+                    condition="uncertain",
+                    confidence=0.0,
+                    model_source="yolov8",
+                    issues=["zero_confidence"],
+                )
+
             return Prediction(
-                condition=normalize_model_label(class_name),
+                condition=condition,
                 confidence=confidence,
                 model_source="yolov8",
                 issues=[],
             )
+        except Exception as exc:  # pragma: no cover - depends on local ML stack
+            return Prediction(
+                condition="uncertain",
+                confidence=0.0,
+                model_source="yolov8",
+                issues=["inference_error:%s" % exc],
+            )
+
+    def predict(self, image_path: Path, source_label: str) -> Prediction:
+        if self.model is not None:
+            return self._inference_prediction(image_path)
 
         if self.allow_folder_fallback:
             return Prediction(
