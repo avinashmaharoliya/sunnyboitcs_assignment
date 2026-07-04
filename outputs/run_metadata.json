@@ -1,0 +1,21 @@
+{
+  "farm_config": {
+    "rows": 5,
+    "columns": 10,
+    "panel_spacing_m": 2.0,
+    "gps_noise_std_m": 2.0,
+    "gps_snap_max_distance_m": 2.5,
+    "seconds_per_panel": 30,
+    "center_latitude": 37.9157,
+    "center_longitude": -122.3116,
+    "robot_id": "SB-ROVER-01",
+    "mission_id": "MISSION-EL-CERRITO-DEMO",
+    "mission_start_iso": "2026-07-05T09:00:00+00:00"
+  },
+  "total_results": 864,
+  "outputs": {
+    "csv": "outputs\\results.csv",
+    "json": "outputs\\results.json",
+    "panel_registry": "outputs\\panel_registry.json"
+  }
+}

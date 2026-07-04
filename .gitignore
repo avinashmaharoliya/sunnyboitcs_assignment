@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+.streamlit/
+venv/
+venv39/
+runs/
+prepared/
+outputs/annotated/
+yolov8n-cls.pt
+*.pt
+!models/
+!models/*.pt

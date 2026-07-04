@@ -1,0 +1,352 @@
+[
+  {
+    "panel_id": "SB-R01-C01",
+    "row": 1,
+    "column": 1,
+    "latitude": 37.915664067553,
+    "longitude": -122.31170247990069
+  },
+  {
+    "panel_id": "SB-R01-C02",
+    "row": 1,
+    "column": 2,
+    "latitude": 37.915664067553,
+    "longitude": -122.31167970658943
+  },
+  {
+    "panel_id": "SB-R01-C03",
+    "row": 1,
+    "column": 3,
+    "latitude": 37.915664067553,
+    "longitude": -122.31165693327816
+  },
+  {
+    "panel_id": "SB-R01-C04",
+    "row": 1,
+    "column": 4,
+    "latitude": 37.915664067553,
+    "longitude": -122.3116341599669
+  },
+  {
+    "panel_id": "SB-R01-C05",
+    "row": 1,
+    "column": 5,
+    "latitude": 37.915664067553,
+    "longitude": -122.31161138665563
+  },
+  {
+    "panel_id": "SB-R01-C06",
+    "row": 1,
+    "column": 6,
+    "latitude": 37.915664067553,
+    "longitude": -122.31158861334437
+  },
+  {
+    "panel_id": "SB-R01-C07",
+    "row": 1,
+    "column": 7,
+    "latitude": 37.915664067553,
+    "longitude": -122.3115658400331
+  },
+  {
+    "panel_id": "SB-R01-C08",
+    "row": 1,
+    "column": 8,
+    "latitude": 37.915664067553,
+    "longitude": -122.31154306672184
+  },
+  {
+    "panel_id": "SB-R01-C09",
+    "row": 1,
+    "column": 9,
+    "latitude": 37.915664067553,
+    "longitude": -122.31152029341057
+  },
+  {
+    "panel_id": "SB-R01-C10",
+    "row": 1,
+    "column": 10,
+    "latitude": 37.915664067553,
+    "longitude": -122.31149752009931
+  },
+  {
+    "panel_id": "SB-R02-C01",
+    "row": 2,
+    "column": 1,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31170247990069
+  },
+  {
+    "panel_id": "SB-R02-C02",
+    "row": 2,
+    "column": 2,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31167970658943
+  },
+  {
+    "panel_id": "SB-R02-C03",
+    "row": 2,
+    "column": 3,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31165693327816
+  },
+  {
+    "panel_id": "SB-R02-C04",
+    "row": 2,
+    "column": 4,
+    "latitude": 37.9156820337765,
+    "longitude": -122.3116341599669
+  },
+  {
+    "panel_id": "SB-R02-C05",
+    "row": 2,
+    "column": 5,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31161138665563
+  },
+  {
+    "panel_id": "SB-R02-C06",
+    "row": 2,
+    "column": 6,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31158861334437
+  },
+  {
+    "panel_id": "SB-R02-C07",
+    "row": 2,
+    "column": 7,
+    "latitude": 37.9156820337765,
+    "longitude": -122.3115658400331
+  },
+  {
+    "panel_id": "SB-R02-C08",
+    "row": 2,
+    "column": 8,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31154306672184
+  },
+  {
+    "panel_id": "SB-R02-C09",
+    "row": 2,
+    "column": 9,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31152029341057
+  },
+  {
+    "panel_id": "SB-R02-C10",
+    "row": 2,
+    "column": 10,
+    "latitude": 37.9156820337765,
+    "longitude": -122.31149752009931
+  },
+  {
+    "panel_id": "SB-R03-C01",
+    "row": 3,
+    "column": 1,
+    "latitude": 37.9157,
+    "longitude": -122.31170247990069
+  },
+  {
+    "panel_id": "SB-R03-C02",
+    "row": 3,
+    "column": 2,
+    "latitude": 37.9157,
+    "longitude": -122.31167970658943
+  },
+  {
+    "panel_id": "SB-R03-C03",
+    "row": 3,
+    "column": 3,
+    "latitude": 37.9157,
+    "longitude": -122.31165693327816
+  },
+  {
+    "panel_id": "SB-R03-C04",
+    "row": 3,
+    "column": 4,
+    "latitude": 37.9157,
+    "longitude": -122.3116341599669
+  },
+  {
+    "panel_id": "SB-R03-C05",
+    "row": 3,
+    "column": 5,
+    "latitude": 37.9157,
+    "longitude": -122.31161138665563
+  },
+  {
+    "panel_id": "SB-R03-C06",
+    "row": 3,
+    "column": 6,
+    "latitude": 37.9157,
+    "longitude": -122.31158861334437
+  },
+  {
+    "panel_id": "SB-R03-C07",
+    "row": 3,
+    "column": 7,
+    "latitude": 37.9157,
+    "longitude": -122.3115658400331
+  },
+  {
+    "panel_id": "SB-R03-C08",
+    "row": 3,
+    "column": 8,
+    "latitude": 37.9157,
+    "longitude": -122.31154306672184
+  },
+  {
+    "panel_id": "SB-R03-C09",
+    "row": 3,
+    "column": 9,
+    "latitude": 37.9157,
+    "longitude": -122.31152029341057
+  },
+  {
+    "panel_id": "SB-R03-C10",
+    "row": 3,
+    "column": 10,
+    "latitude": 37.9157,
+    "longitude": -122.31149752009931
+  },
+  {
+    "panel_id": "SB-R04-C01",
+    "row": 4,
+    "column": 1,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31170247990069
+  },
+  {
+    "panel_id": "SB-R04-C02",
+    "row": 4,
+    "column": 2,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31167970658943
+  },
+  {
+    "panel_id": "SB-R04-C03",
+    "row": 4,
+    "column": 3,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31165693327816
+  },
+  {
+    "panel_id": "SB-R04-C04",
+    "row": 4,
+    "column": 4,
+    "latitude": 37.915717966223504,
+    "longitude": -122.3116341599669
+  },
+  {
+    "panel_id": "SB-R04-C05",
+    "row": 4,
+    "column": 5,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31161138665563
+  },
+  {
+    "panel_id": "SB-R04-C06",
+    "row": 4,
+    "column": 6,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31158861334437
+  },
+  {
+    "panel_id": "SB-R04-C07",
+    "row": 4,
+    "column": 7,
+    "latitude": 37.915717966223504,
+    "longitude": -122.3115658400331
+  },
+  {
+    "panel_id": "SB-R04-C08",
+    "row": 4,
+    "column": 8,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31154306672184
+  },
+  {
+    "panel_id": "SB-R04-C09",
+    "row": 4,
+    "column": 9,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31152029341057
+  },
+  {
+    "panel_id": "SB-R04-C10",
+    "row": 4,
+    "column": 10,
+    "latitude": 37.915717966223504,
+    "longitude": -122.31149752009931
+  },
+  {
+    "panel_id": "SB-R05-C01",
+    "row": 5,
+    "column": 1,
+    "latitude": 37.915735932447,
+    "longitude": -122.31170247990069
+  },
+  {
+    "panel_id": "SB-R05-C02",
+    "row": 5,
+    "column": 2,
+    "latitude": 37.915735932447,
+    "longitude": -122.31167970658943
+  },
+  {
+    "panel_id": "SB-R05-C03",
+    "row": 5,
+    "column": 3,
+    "latitude": 37.915735932447,
+    "longitude": -122.31165693327816
+  },
+  {
+    "panel_id": "SB-R05-C04",
+    "row": 5,
+    "column": 4,
+    "latitude": 37.915735932447,
+    "longitude": -122.3116341599669
+  },
+  {
+    "panel_id": "SB-R05-C05",
+    "row": 5,
+    "column": 5,
+    "latitude": 37.915735932447,
+    "longitude": -122.31161138665563
+  },
+  {
+    "panel_id": "SB-R05-C06",
+    "row": 5,
+    "column": 6,
+    "latitude": 37.915735932447,
+    "longitude": -122.31158861334437
+  },
+  {
+    "panel_id": "SB-R05-C07",
+    "row": 5,
+    "column": 7,
+    "latitude": 37.915735932447,
+    "longitude": -122.3115658400331
+  },
+  {
+    "panel_id": "SB-R05-C08",
+    "row": 5,
+    "column": 8,
+    "latitude": 37.915735932447,
+    "longitude": -122.31154306672184
+  },
+  {
+    "panel_id": "SB-R05-C09",
+    "row": 5,
+    "column": 9,
+    "latitude": 37.915735932447,
+    "longitude": -122.31152029341057
+  },
+  {
+    "panel_id": "SB-R05-C10",
+    "row": 5,
+    "column": 10,
+    "latitude": 37.915735932447,
+    "longitude": -122.31149752009931
+  }
+]
