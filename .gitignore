@@ -10,3 +10,4 @@ yolov8n-cls.pt
 *.pt
 !models/
 !models/*.pt
+*.pdf
